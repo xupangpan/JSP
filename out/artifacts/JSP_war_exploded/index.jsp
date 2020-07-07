@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 许
+  User: ��
   Date: 2020/7/7
   Time: 13:53
   To change this template use File | Settings | File Templates.
@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$成功了
+  $END$
   </body>
 </html>
