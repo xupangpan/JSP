@@ -19,7 +19,7 @@
        </context-param>
        <context-param>
            <param-name>password</param-name>
-           <param-value>123456</param-value>
+           <param-value>xl1122<param-value>
        </context-param>`
    + Servlet的使用采用注入的方式使用
       `@WebServlet(name = "del", urlPatterns = {"/del.htm"})`
@@ -41,7 +41,7 @@
                      rs = ps.executeQuery();`  
       + 删除    
           ` String sql = "delete from product";
-                       con = DriverManager.getConnection("jdbc:mysql://localhost:3306/person?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai", "root", "123456");
+                       con = DriverManager.getConnection("jdbc:mysql://localhost:3306/person?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai", "root", "xl1122");
                        ps = con.prepareStatement(sql);
                        int rs=ps.executeUpdate();`
    + 使用Servlet的Session保存用户信息
