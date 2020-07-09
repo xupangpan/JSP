@@ -21,6 +21,7 @@
            <param-name>password</param-name>
            <param-value>xl1122</param-value>
        </context-param>
+      
    + Servlet的使用采用注入的方式使用
  
      @WebServlet(name = "del", urlPatterns = {"/del.htm"})
