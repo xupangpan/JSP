@@ -12,7 +12,6 @@
   + 连接本地数据库
 ## 3具体实现 
   + XML封装数据库信息
-    
    <context-param>
            <param-name>user</param-name>
            <param-value>root</param-value>
