@@ -11,23 +11,20 @@
   + 保存用户的用户、密码
   + 连接本地数据库
 ## 3具体实现 
-  + XML封装数据库信息
- 
- '<context-param>
+ + XML封装数据库信息
+    ` <context-param>
            <param-name>user</param-name>
            <param-value>root</param-value>
        </context-param>
        <context-param>
            <param-name>password</param-name>
-           <param-value>xl1122</param-value>
-       </context-param>'
-      
+           <param-value>123456</param-value>
+       </context-param>`
    + Servlet的使用采用注入的方式使用
- 
-     @WebServlet(name = "del", urlPatterns = {"/del.htm"})
+      `@WebServlet(name = "del", urlPatterns = {"/del.htm"})`
    + 数据库的连接以及增删改查的实现
       
-      +查询
+      + 查询
       
          String sql = "select * from new_table where user=? and password =?";  
                  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/person?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai", username, password);
