@@ -64,7 +64,7 @@
             System.out.println(username);
             System.out.println(password);
         }`
-## 5总结
+## 4总结
   1. Jsp/servlet开发
   3. 软件工程GIT/GITHUB和文档Markdown
   4. 使用JDBC连接数据库
