@@ -12,7 +12,8 @@
   + 前端页面的优化处理
 ## 3具体实现 
   + XML封装数据库信息
-    ` <context-param>
+    ` 
+   <context-param>
            <param-name>user</param-name>
            <param-value>root</param-value>
        </context-param>
@@ -64,8 +65,7 @@
             System.out.println(password);
         }`
 ## 5总结
-  1. Jsp/servlet开发基础
-  2. web前端优化（HTML5）
+  1. Jsp/servlet开发
   3. 软件工程GIT/GITHUB和文档Markdown
   4. 使用JDBC连接数据库
   5. 实现数据库的增删查改
